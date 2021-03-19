@@ -9,7 +9,7 @@ function submitProfile(evt) {
   };
 
   $.post('/profile', formData, (response) => {
-    $('#profile').append(`
+    $('#profile').append(`);
       <li>${response.fullname} the ${response.occupation} is ${response.age}</li>
     `);
   });
