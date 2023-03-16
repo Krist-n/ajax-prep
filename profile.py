@@ -24,6 +24,7 @@ def profile():
                     'occupation': occupation })
 
 # adding comments for testing in Datadog
+# check to confirm events are appearing in Events Explorer
 
 
 
